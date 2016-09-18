@@ -25,8 +25,72 @@ h3 {
 p {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 2em;
+	color: #9d9d9d;
 }
+
+
+.address {
+	padding-top: 20px;
+	width: 5%;
+	height: auto;
+}
+
+#email{
+	text-align: right;
+	width: 30%;
+}
+
+.phone {
+	width: 50%;
+	height: auto;
+}
+
+
 
 .foot {
 	font-size: 1em;
+}
+
+@media only screen and (max-width: 780px) {
+
+	#email {
+		width:50%;
+		height:auto;
+	}
+
+	.phone {
+		width: 25%;
+		height: auto;
+	}
+
+	#kirsty {
+		display: none;
+	}
+
+}
+
+@media only screen and (max-width: 500px) {
+	h3 {
+		font-size: 4em;
+	}
+
+	p {
+		font-size: 1.5em;
+	}
+
+	#email {
+		width:50%;
+		height:auto;
+	}
+
+	.phone {
+		width: 25%;
+		height: auto;
+	}
+
+	/*#kirsty {
+		width: 50%;
+		height: auto;
+	}*/
+
 }
