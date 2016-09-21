@@ -52,13 +52,13 @@ h3 {
 	padding-top: 70px;
 	font-size: 7em;
 	color: #009877;
+	font-family: 'Montserrat', 'Arial', sans-serif;
 }
 
 p {
 	font-size: 2em;
 	color: #9d9d9d;
 }
-
 
 .address {
 	padding-top: 20px;
@@ -75,8 +75,6 @@ p {
 	width: 50%;
 	height: auto;
 }
-
-
 
 .foot {
 	font-size: 1em;
